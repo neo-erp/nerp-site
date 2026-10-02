@@ -1,0 +1,253 @@
+{
+  "schema": "nuxtjp://localized-site/site-config/v1",
+  "siteId": "nerp-console-site",
+  "serviceId": "nerp-console",
+  "origin": "https://nerp.jp",
+  "audienceScope": "japan",
+  "defaultLocale": "ja",
+  "fallbackLocale": "en",
+  "prefixDefaultLocale": false,
+  "locales": [
+    "ja",
+    "en"
+  ],
+  "externalActions": false,
+  "content": {
+    "ja": {
+      "brand": "NERP",
+      "tagline": "企業のやることを、端末内から見失わない。",
+      "summary": "法人向け統合支援製品として、契約機能、ローカル索引、独立サービスの操作面、問い合わせの入口を共通インターフェースで提供します。",
+      "features": [
+        {
+          "id": "local-first",
+          "title": "ローカルファースト",
+          "summary": "業務索引と機密情報は原則として端末内に保持します。"
+        },
+        {
+          "id": "capabilities",
+          "title": "機能を選んで有効化",
+          "summary": "契約状態に応じて独立サービスの機能面を表示します。"
+        },
+        {
+          "id": "support",
+          "title": "一つの問い合わせ窓口",
+          "summary": "内容を版付きルールで担当部門へ振り分けます。"
+        }
+      ],
+      "docs": {
+        "overview": {
+          "slug": "/docs",
+          "title": "概要",
+          "summary": "法人向け統合支援製品として、契約機能、ローカル索引、独立サービスの操作面、問い合わせの入口を共通インターフェースで提供します。",
+          "sections": [
+            {
+              "id": "purpose",
+              "title": "目的",
+              "body": [
+                "法人向け統合支援製品として、契約機能、ローカル索引、独立サービスの操作面、問い合わせの入口を共通インターフェースで提供します。"
+              ]
+            },
+            {
+              "id": "offering",
+              "title": "提供するもの",
+              "body": [
+                "業務索引と機密情報は原則として端末内に保持します。",
+                "契約状態に応じて独立サービスの機能面を表示します。",
+                "内容を版付きルールで担当部門へ振り分けます。"
+              ]
+            },
+            {
+              "id": "boundary",
+              "title": "責任境界",
+              "body": [
+                "WebにはUI定義、ライセンス状態、端末間共有に必要な最小情報だけを置きます。認証、課金、外部Providerは現在未接続です。"
+              ]
+            }
+          ]
+        },
+        "gettingStarted": {
+          "slug": "/docs/getting-started",
+          "title": "はじめに",
+          "summary": "公開文書でHostedとLocalの境界を確認し、端末版を導入してローカル索引を作成した後、必要な機能だけを有効化します。",
+          "sections": [
+            {
+              "id": "start",
+              "title": "利用の流れ",
+              "body": [
+                "公開文書でHostedとLocalの境界を確認し、端末版を導入してローカル索引を作成した後、必要な機能だけを有効化します。"
+              ]
+            },
+            {
+              "id": "language",
+              "title": "言語とURL",
+              "body": [
+                "日本語と英語は同じ情報構造を持ち、言語切替後も同じページを表示します。"
+              ]
+            },
+            {
+              "id": "availability",
+              "title": "現在の提供状態",
+              "body": [
+                "このリポジトリはローカル検証用です。公開、認証、課金、外部サービス変更は行いません。"
+              ]
+            }
+          ]
+        },
+        "security": {
+          "slug": "/docs/security",
+          "title": "安全性と公開境界",
+          "summary": "WebにはUI定義、ライセンス状態、端末間共有に必要な最小情報だけを置きます。認証、課金、外部Providerは現在未接続です。",
+          "sections": [
+            {
+              "id": "public-data",
+              "title": "公開する情報",
+              "body": [
+                "NERPの公開面には、公開承認された説明と文書だけを含めます。"
+              ]
+            },
+            {
+              "id": "private-data",
+              "title": "保持しない情報",
+              "body": [
+                "資格情報、顧客情報、個人の機微情報、非公開ソース、解析識別子は設定に含めません。"
+              ]
+            },
+            {
+              "id": "limits",
+              "title": "制約",
+              "body": [
+                "WebにはUI定義、ライセンス状態、端末間共有に必要な最小情報だけを置きます。認証、課金、外部Providerは現在未接続です。"
+              ]
+            }
+          ]
+        }
+      },
+      "privacy": {
+        "label": "プライバシー",
+        "summary": "このローカル公開面はCookie、解析識別子、問い合わせ内容を収集しません。収集機能は別途の審査と同意設計後にのみ追加します。"
+      },
+      "contact": {
+        "label": "お問い合わせ",
+        "summary": "問い合わせ送信機能は未接続です。責任部門と保管条件を承認した公開窓口だけを将来表示します。"
+      }
+    },
+    "en": {
+      "brand": "NERP",
+      "tagline": "Keep enterprise work visible from a device-local foundation.",
+      "summary": "An integrated business-support product combining entitlements, device-local indexes, independent service controls, and a single inquiry entry point.",
+      "features": [
+        {
+          "id": "local-first",
+          "title": "Local first",
+          "summary": "Keeps business indexes and sensitive records on the device by default."
+        },
+        {
+          "id": "capabilities",
+          "title": "Capability activation",
+          "summary": "Projects independent service capabilities according to entitlement state."
+        },
+        {
+          "id": "support",
+          "title": "One support entry point",
+          "summary": "Routes inquiries to responsible departments through versioned rules."
+        }
+      ],
+      "docs": {
+        "overview": {
+          "slug": "/docs",
+          "title": "Overview",
+          "summary": "An integrated business-support product combining entitlements, device-local indexes, independent service controls, and a single inquiry entry point.",
+          "sections": [
+            {
+              "id": "purpose",
+              "title": "Purpose",
+              "body": [
+                "An integrated business-support product combining entitlements, device-local indexes, independent service controls, and a single inquiry entry point."
+              ]
+            },
+            {
+              "id": "offering",
+              "title": "What we provide",
+              "body": [
+                "Keeps business indexes and sensitive records on the device by default.",
+                "Projects independent service capabilities according to entitlement state.",
+                "Routes inquiries to responsible departments through versioned rules."
+              ]
+            },
+            {
+              "id": "boundary",
+              "title": "Responsibility boundary",
+              "body": [
+                "The web surface holds only UI definitions, entitlement state, and minimum cross-device control data. Authentication, billing, and external providers are not yet connected."
+              ]
+            }
+          ]
+        },
+        "gettingStarted": {
+          "slug": "/docs/getting-started",
+          "title": "Getting started",
+          "summary": "Review the hosted/local boundary, install the device application, build a local index, and activate only the capabilities you need.",
+          "sections": [
+            {
+              "id": "start",
+              "title": "How to begin",
+              "body": [
+                "Review the hosted/local boundary, install the device application, build a local index, and activate only the capabilities you need."
+              ]
+            },
+            {
+              "id": "language",
+              "title": "Languages and URLs",
+              "body": [
+                "Japanese and English use the same information structure and preserve the current page when switching language."
+              ]
+            },
+            {
+              "id": "availability",
+              "title": "Current availability",
+              "body": [
+                "This repository is for local verification. It does not publish, authenticate, bill, or mutate external services."
+              ]
+            }
+          ]
+        },
+        "security": {
+          "slug": "/docs/security",
+          "title": "Safety and publication boundary",
+          "summary": "The web surface holds only UI definitions, entitlement state, and minimum cross-device control data. Authentication, billing, and external providers are not yet connected.",
+          "sections": [
+            {
+              "id": "public-data",
+              "title": "Public information",
+              "body": [
+                "The NERP public surface contains only approved public descriptions and documentation."
+              ]
+            },
+            {
+              "id": "private-data",
+              "title": "Information not held here",
+              "body": [
+                "Configuration excludes credentials, customer records, sensitive personal data, private source, and analytics identifiers."
+              ]
+            },
+            {
+              "id": "limits",
+              "title": "Limitations",
+              "body": [
+                "The web surface holds only UI definitions, entitlement state, and minimum cross-device control data. Authentication, billing, and external providers are not yet connected."
+              ]
+            }
+          ]
+        }
+      },
+      "privacy": {
+        "label": "Privacy",
+        "summary": "This local public surface collects no cookies, analytics identifiers, or inquiry content. Collection may be added only after separate review and consent design."
+      },
+      "contact": {
+        "label": "Contact",
+        "summary": "Inquiry submission is not connected. A public channel will be shown only after its responsible team and retention terms are approved."
+      }
+    }
+  }
+}
