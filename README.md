@@ -1,5 +1,10 @@
 # nerp-site
 
+This repository is the canonical maintenance source for the Hudu cost estimator
+at `sites/cost-estimator`. The standalone `neo-erp/cost-estimator-site` is retained
+as a historical reference. The existing service identity and `hudu.coffee`
+declaration remain intact; source selection does not switch a deployment.
+
 Organization-managed public sites built with Nuxt. All application/layout/page/CSS/SEO implementation is supplied by `@nuxtjp/localized-site`; `sites/` contains site content, static assets, legal notices and Cloudflare configuration. Site-specific Nuxt applications or layouts are rejected.
 
 ```sh
