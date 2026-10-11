@@ -1,0 +1,96 @@
+{
+  "schema": "nuxtjp://localized-site/site-config/v1",
+  "siteId": "hudu-cost-estimator-site",
+  "serviceId": "hudu-cost-estimator",
+  "origin": "https://hudu.coffee",
+  "audienceScope": "japan",
+  "defaultLocale": "ja",
+  "fallbackLocale": "en",
+  "prefixDefaultLocale": false,
+  "locales": ["ja", "en"],
+  "externalActions": false,
+  "content": {
+    "ja": {
+      "brand": "NERP Cost Estimator",
+      "tagline": "AIとCloudの計算資源を、前提と根拠から比較できるJPY見積もり",
+      "summary": "HuduはAIの学習・推論・Batch処理とCloudのCompute、Storage、Network、Managed Serviceを、利用者が指定したRateと前提から再現可能なJPY計画値へ変換します。Provider価格を自動取得せず、請求・購入・契約・金融助言を行いません。",
+      "features": [
+        {"id": "workload-model", "title": "Workloadモデル", "summary": "実行時間、台数、利用率、Storage、通信量、期間を単位付きの入力として整理します。"},
+        {"id": "assumption-led-estimate", "title": "前提付き見積もり", "summary": "Rate、通貨、税、割引、丸め、取得時点を結果と一緒に固定し、再計算可能にします。"},
+        {"id": "scenario-comparison", "title": "Scenario比較", "summary": "On-demand、予約、Cloud間、Local機器等の候補を、同じWorkloadと評価軸で比較します。"}
+      ],
+      "docs": {
+        "overview": {
+          "slug": "/docs",
+          "title": "Huduの概要",
+          "summary": "計画用見積もりが扱う範囲と価格情報の責任境界を説明します。",
+          "sections": [
+            {"id": "estimation-purpose", "title": "計画値を作る", "body": ["Huduは指定されたWorkloadとRateから月次・年次等の比較値を計算します。同一入力から同一結果を得られることを重視し、営業見積書や請求情報の代わりにはなりません。"]},
+            {"id": "pricing-boundary", "title": "価格の出典と時点", "body": ["Rateは利用者が公式料金表、契約、社内標準等から準備し、通貨、適用地域、税、割引、取得時点を記録します。公開例は現在価格や利用可能性を保証しません。"]}
+          ]
+        },
+        "gettingStarted": {
+          "slug": "/docs/getting-started",
+          "title": "Cost Scenarioを作る",
+          "summary": "前提を揃えて比較可能な計画値を得る手順です。",
+          "sections": [
+            {"id": "prepare-assumptions", "title": "前提を準備する", "body": ["Workload、対象地域、期間、通貨、税、割引、Rateの出典と取得日を定めます。不明な値は推測で埋めず、Rangeまたは未確認として分離します。"]},
+            {"id": "review-scenarios", "title": "Scenarioを比較する", "body": ["合計だけでなく、単価、利用率、通信、Storage、余裕率、変動要因を確認します。購入や契約の前にProviderの最新条件と実際の契約条件を再確認してください。"]}
+          ]
+        },
+        "security": {
+          "slug": "/docs/security",
+          "title": "見積もりデータの安全性",
+          "summary": "請求情報やCloud資格情報を使わずに計算する原則です。",
+          "sections": [
+            {"id": "no-credentials", "title": "Cloud資格情報は不要", "body": ["このサイトとLocal estimatorはProviderへLoginせず、API key、請求Account、支払情報を要求しません。Rateは秘密値を除いた境界付きfileとして入力します。"]},
+            {"id": "local-calculation", "title": "ローカルで計算する", "body": ["計算は指定入力だけで完結し、外部へ送信しません。Estimateにはinput digestと計算材料digestを付け、再現性と価格の正しさを区別します。"]}
+          ]
+        }
+      },
+      "privacy": {"label": "プライバシー", "summary": "公開サイトはCloud account、請求書、支払情報、Workload実績を収集しません。Local入力へ顧客名やAccount IDを含めず、Scenario IDと必要な数値だけを使用してください。"},
+      "contact": {"label": "Huduに関する連絡", "summary": "計算式や仕様の問題は、hudu.coffeeで確認済みとして案内される窓口へ版、匿名化した入力、期待結果を送ってください。請求書、契約単価、資格情報を送らないでください。"}
+    },
+    "en": {
+      "brand": "NERP Cost Estimator",
+      "tagline": "Reproducible JPY estimates for comparing AI and cloud resources from explicit assumptions and evidence",
+      "summary": "Hudu converts AI training, inference, batch workloads, and cloud compute, storage, network, and managed services into reproducible JPY planning values using user-supplied rates and assumptions. It does not fetch provider prices or perform billing, purchasing, contracting, or financial advice.",
+      "features": [
+        {"id": "workload-model", "title": "Workload model", "summary": "Structures duration, instance count, utilization, storage, transfer, and period as unit-bearing input."},
+        {"id": "assumption-led-estimate", "title": "Assumption-led estimate", "summary": "Records rates, currency, tax, discount, rounding, and observation time with the result for reproducibility."},
+        {"id": "scenario-comparison", "title": "Scenario comparison", "summary": "Compares on-demand, reserved, cross-cloud, or local-machine options with the same workload and evaluation axes."}
+      ],
+      "docs": {
+        "overview": {
+          "slug": "/docs",
+          "title": "Hudu overview",
+          "summary": "Explains the scope of planning estimates and accountability for pricing information.",
+          "sections": [
+            {"id": "estimation-purpose", "title": "Produce planning values", "body": ["Hudu calculates monthly, annual, or other comparisons from a stated workload and rates. It prioritizes identical results from identical input and does not replace a provider quote or billing record."]},
+            {"id": "pricing-boundary", "title": "Price provenance and time", "body": ["Users prepare rates from official price lists, contracts, or internal standards and record currency, region, tax, discount, and retrieval time. Published examples do not guarantee current price or availability."]}
+          ]
+        },
+        "gettingStarted": {
+          "slug": "/docs/getting-started",
+          "title": "Create a cost scenario",
+          "summary": "A sequence for aligning assumptions and producing comparable planning values.",
+          "sections": [
+            {"id": "prepare-assumptions", "title": "Prepare assumptions", "body": ["Define workload, target region, period, currency, tax, discount, rate provenance, and retrieval date. Keep unknown values as ranges or unverified items instead of silently guessing."]},
+            {"id": "review-scenarios", "title": "Review scenarios", "body": ["Review unit rates, utilization, transfer, storage, headroom, and sensitivity as well as totals. Recheck current provider and contract terms before purchasing or contracting."]}
+          ]
+        },
+        "security": {
+          "slug": "/docs/security",
+          "title": "Estimate-data security",
+          "summary": "Principles for calculating without billing data or cloud credentials.",
+          "sections": [
+            {"id": "no-credentials", "title": "No cloud credentials required", "body": ["Neither this site nor the local estimator logs into a provider or requests API keys, billing accounts, or payment information. Rates are supplied in a bounded file without secrets."]},
+            {"id": "local-calculation", "title": "Calculate locally", "body": ["Calculation uses only the supplied input and sends nothing externally. Each estimate includes input and calculation-material digests, distinguishing reproducibility from price accuracy."]}
+          ]
+        }
+      },
+      "privacy": {"label": "Privacy", "summary": "The public site collects no cloud accounts, invoices, payment information, or workload history. Keep customer names and account IDs out of local input and use only a scenario ID and necessary values."},
+      "contact": {"label": "Hudu contact", "summary": "Report formula or contract issues through a verified channel identified on hudu.coffee, sending only the version, sanitized input, and expected result. Never send invoices, contracted rates, or credentials."}
+    }
+  }
+}
