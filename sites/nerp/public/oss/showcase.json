@@ -1,0 +1,55 @@
+{
+  "schema": "nuxtjp://showcase/v1",
+  "owner": "neo-erp",
+  "observedAt": "2026-10-13T04:06:00Z",
+  "entries": [
+    {
+      "id": "neo-erp-nerp-site",
+      "kind": "oss",
+      "name": {
+        "ja": "nerp-site",
+        "en": "nerp-site"
+      },
+      "summary": {
+        "ja": "neo-erp/nerp-site の公開ソース・利用情報。仕様、公開版、権利表示と検証範囲は正本のREADMEで確認できます。",
+        "en": "法人の業務・契約・サービスをつなぐ統合支援の考え方と導入案内を記述できます。 / Explain the intended corporate support for business, contracts and services."
+      },
+      "repository": "https://github.com/neo-erp/nerp-site",
+      "homepage": "https://github.com/neo-erp/nerp-site",
+      "license": "Apache-2.0",
+      "metrics": []
+    },
+    {
+      "id": "neo-erp-hat-nerp-operator",
+      "kind": "oss",
+      "name": {
+        "ja": "hat-nerp-operator",
+        "en": "hat-nerp-operator"
+      },
+      "summary": {
+        "ja": "neo-erp/hat-nerp-operator の公開ソース・利用情報。仕様、公開版、権利表示と検証範囲は正本のREADMEで確認できます。",
+        "en": "NERPの許可されたローカル状態を確認する役割の宣言と、入力・版の検証を利用できます。 / Provide the declared role interface for reviewing permitted local NERP state."
+      },
+      "repository": "https://github.com/neo-erp/hat-nerp-operator",
+      "homepage": "https://github.com/neo-erp/hat-nerp-operator",
+      "license": "Apache-2.0",
+      "metrics": []
+    },
+    {
+      "id": "neo-erp-erpnext-docker",
+      "kind": "oss",
+      "name": {
+        "ja": "erpnext-docker",
+        "en": "erpnext-docker"
+      },
+      "summary": {
+        "ja": "neo-erp/erpnext-docker の公開ソース・利用情報。仕様、公開版、権利表示と検証範囲は正本のREADMEで確認できます。",
+        "en": "Linux・WSL環境でERPNextを自己管理するために、Docker Compose構成を確認・調整できます。NERP本体とは独立した配備例です。 / Review and adapt an ERPNext Docker Compose deployment for a self-managed Linux or WSL environment."
+      },
+      "repository": "https://github.com/neo-erp/erpnext-docker",
+      "homepage": "https://github.com/neo-erp/erpnext-docker",
+      "license": "Apache-2.0",
+      "metrics": []
+    }
+  ]
+}
