@@ -15,7 +15,7 @@
   "content": {
     "ja": {
       "brand": "NERP",
-      "tagline": "企業のやることを、端末内から見失わない。",
+      "tagline": "業務の情報と操作を、ひとつの入口へ。",
       "summary": "法人向け統合支援製品として、契約機能、ローカル索引、独立サービスの操作面、問い合わせの入口を共通インターフェースで提供します。",
       "features": [
         {
@@ -140,7 +140,7 @@
     },
     "en": {
       "brand": "NERP",
-      "tagline": "Keep enterprise work visible from a device-local foundation.",
+      "tagline": "A shared entry point for business information and operations.",
       "summary": "An integrated business-support product combining entitlements, device-local indexes, independent service controls, and a single inquiry entry point.",
       "features": [
         {
