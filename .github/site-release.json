@@ -17,7 +17,8 @@
       "siteConfig": "sites/nerp/site.config.json",
       "appDirectory": ".",
       "assetDirectory": ".output/nerp/public",
-      "buildKind": "organization"
+      "buildKind": "organization",
+      "zone": "5fdeeb00e4fe2abe3b00c97b642eaaec"
     }
   ]
 }
