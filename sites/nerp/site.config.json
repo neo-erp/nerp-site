@@ -15,45 +15,45 @@
   "content": {
     "ja": {
       "brand": "NERP",
-      "tagline": "業務の情報と操作を、ひとつの入口へ。",
-      "summary": "法人向け統合支援製品として、契約機能、ローカル索引、独立サービスの操作面、問い合わせの入口を共通インターフェースで提供します。",
+      "tagline": "仕事も、暮らしも。情報を自分の手元へ。",
+      "summary": "業務とプライベートの情報を、ワークスペースごとに整理するローカルファーストの製品です。現在は開発中で、一般向けの配布を準備しています。",
       "features": [
         {
+          "id": "workspace",
+          "title": "仕事と個人の情報を整理",
+          "summary": "個人用・組織用のワークスペースで連絡先、タスク、メモを扱う機能を開発しています。"
+        },
+        {
           "id": "local-first",
-          "title": "ローカルファースト",
-          "summary": "業務索引と機密情報は原則として端末内に保持します。"
+          "title": "端末の中に、情報の正本を",
+          "summary": "ローカルのSQLiteへ業務情報を保存する構成です。外部クラウド接続は別途設定します。"
         },
         {
-          "id": "capabilities",
-          "title": "機能を選んで有効化",
-          "summary": "契約状態に応じて独立サービスの機能面を表示します。"
-        },
-        {
-          "id": "support",
-          "title": "一つの問い合わせ窓口",
-          "summary": "内容を版付きルールで担当部門へ振り分けます。"
+          "id": "availability",
+          "title": "提供状況を確かめて導入",
+          "summary": "一般向けダウンロードは準備中です。対応環境と検証済み機能を順次案内します。"
         }
       ],
       "docs": {
         "overview": {
           "slug": "/docs",
           "title": "概要",
-          "summary": "法人向け統合支援製品として、契約機能、ローカル索引、独立サービスの操作面、問い合わせの入口を共通インターフェースで提供します。",
+          "summary": "業務とプライベートの情報を、ワークスペースごとに整理するローカルファーストの製品です。現在は開発中で、一般向けの配布を準備しています。",
           "sections": [
             {
               "id": "purpose",
               "title": "目的",
               "body": [
-                "法人向け統合支援製品として、契約機能、ローカル索引、独立サービスの操作面、問い合わせの入口を共通インターフェースで提供します。"
+                "業務とプライベートの情報を、ワークスペースごとに整理するローカルファーストの製品です。現在は開発中で、一般向けの配布を準備しています。"
               ]
             },
             {
               "id": "offering",
               "title": "提供するもの",
               "body": [
-                "業務索引と機密情報は原則として端末内に保持します。",
-                "契約状態に応じて独立サービスの機能面を表示します。",
-                "内容を版付きルールで担当部門へ振り分けます。"
+                "個人用・組織用のワークスペースで連絡先、タスク、メモを扱う機能を開発しています。",
+                "ローカルのSQLiteへ業務情報を保存する構成です。外部クラウド接続は別途設定します。",
+                "一般向けダウンロードは準備中です。対応環境と検証済み機能を順次案内します。"
               ]
             },
             {
@@ -74,14 +74,14 @@
         },
         "gettingStarted": {
           "slug": "/docs/getting-started",
-          "title": "はじめに",
-          "summary": "公開文書でHostedとLocalの境界を確認し、端末版を導入してローカル索引を作成した後、必要な機能だけを有効化します。",
+          "title": "導入・ダウンロード",
+          "summary": "一般向けの正式配布物は準備中です。公開後、このページに対応OS、ダウンロード、署名・hashの検証方法と初回起動手順を掲載します。",
           "sections": [
             {
               "id": "start",
               "title": "利用の流れ",
               "body": [
-                "公開文書でHostedとLocalの境界を確認し、端末版を導入してローカル索引を作成した後、必要な機能だけを有効化します。"
+                "一般向けの正式配布物は準備中です。公開後、このページに対応OS、ダウンロード、署名・hashの検証方法と初回起動手順を掲載します。"
               ]
             },
             {
@@ -95,7 +95,7 @@
               "id": "availability",
               "title": "現在の提供状態",
               "body": [
-                "このリポジトリはローカル検証用です。公開、認証、課金、外部サービス変更は行いません。"
+                "製品は開発中です。メール・予定・workflow、永続job、Graph連携、バックアップの統合受入は未完了です。"
               ]
             }
           ]
@@ -140,45 +140,45 @@
     },
     "en": {
       "brand": "NERP",
-      "tagline": "A shared entry point for business information and operations.",
-      "summary": "An integrated business-support product combining entitlements, device-local indexes, independent service controls, and a single inquiry entry point.",
+      "tagline": "Work and life. Your information, close at hand.",
+      "summary": "A local-first product for organizing business and personal information by workspace. NERP is in development; public distribution is being prepared.",
       "features": [
         {
+          "id": "workspace",
+          "title": "Organize work and personal information",
+          "summary": "Personal and organization workspaces for contacts, tasks and notes are in development."
+        },
+        {
           "id": "local-first",
-          "title": "Local first",
-          "summary": "Keeps business indexes and sensitive records on the device by default."
+          "title": "Keep the source of truth on your device",
+          "summary": "Business records are stored in local SQLite. External cloud connections require separate setup."
         },
         {
-          "id": "capabilities",
-          "title": "Capability activation",
-          "summary": "Projects independent service capabilities according to entitlement state."
-        },
-        {
-          "id": "support",
-          "title": "One support entry point",
-          "summary": "Routes inquiries to responsible departments through versioned rules."
+          "id": "availability",
+          "title": "Check availability before installing",
+          "summary": "Public downloads are being prepared. Supported environments and verified capabilities will be documented."
         }
       ],
       "docs": {
         "overview": {
           "slug": "/docs",
           "title": "Overview",
-          "summary": "An integrated business-support product combining entitlements, device-local indexes, independent service controls, and a single inquiry entry point.",
+          "summary": "A local-first product for organizing business and personal information by workspace. NERP is in development; public distribution is being prepared.",
           "sections": [
             {
               "id": "purpose",
               "title": "Purpose",
               "body": [
-                "An integrated business-support product combining entitlements, device-local indexes, independent service controls, and a single inquiry entry point."
+                "A local-first product for organizing business and personal information by workspace. NERP is in development; public distribution is being prepared."
               ]
             },
             {
               "id": "offering",
               "title": "What we provide",
               "body": [
-                "Keeps business indexes and sensitive records on the device by default.",
-                "Projects independent service capabilities according to entitlement state.",
-                "Routes inquiries to responsible departments through versioned rules."
+                "Personal and organization workspaces for contacts, tasks and notes are in development.",
+                "Business records are stored in local SQLite. External cloud connections require separate setup.",
+                "Public downloads are being prepared. Supported environments and verified capabilities will be documented."
               ]
             },
             {
@@ -199,14 +199,14 @@
         },
         "gettingStarted": {
           "slug": "/docs/getting-started",
-          "title": "Getting started",
-          "summary": "Review the hosted/local boundary, install the device application, build a local index, and activate only the capabilities you need.",
+          "title": "Get started & download",
+          "summary": "Public releases are not yet available. Supported systems, downloads, signature/hash verification and first-run instructions will be listed here after release.",
           "sections": [
             {
               "id": "start",
               "title": "How to begin",
               "body": [
-                "Review the hosted/local boundary, install the device application, build a local index, and activate only the capabilities you need."
+                "Public releases are not yet available. Supported systems, downloads, signature/hash verification and first-run instructions will be listed here after release."
               ]
             },
             {
@@ -220,7 +220,7 @@
               "id": "availability",
               "title": "Current availability",
               "body": [
-                "This repository is for local verification. It does not publish, authenticate, bill, or mutate external services."
+                "The product is in development. Email, calendar, workflows, durable jobs, Graph integration and integrated backup acceptance remain incomplete."
               ]
             }
           ]
