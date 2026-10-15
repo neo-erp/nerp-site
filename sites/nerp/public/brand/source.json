@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "site": "nerp",
+  "source_file": "exec-40e51176-467f-4e36-822f-f59640417a8c.png",
+  "sha256": "812f0d32efeb081fb02a0647b5aec322537468b76541a858b752b23c7cabac5c",
+  "artwork": "User-provided generated artwork, copied without alteration",
+  "theme": {
+    "accent": "#6740c7",
+    "paper": "#faf8ff",
+    "ink": "#102d46"
+  }
+}

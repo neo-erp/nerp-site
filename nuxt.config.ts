@@ -1,3 +1,6 @@
+import siteBranding from './branding'
 import { organizationSite } from '@nuxtjp/localized-site/organization'
 
-export default defineNuxtConfig(organizationSite(import.meta.url, process.env.SITE_ID, process.env.SITE_ID === 'nerp' ? { theme: 'nerp', scope: 'organization' } : undefined))
+const shared = organizationSite(import.meta.url, process.env.SITE_ID, process.env.SITE_ID === 'nerp' ? { theme: 'nerp', scope: 'organization' } : undefined)
+
+export default defineNuxtConfig({ ...shared, modules: [...shared.modules, siteBranding] })
