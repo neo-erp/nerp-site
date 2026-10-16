@@ -272,26 +272,17 @@
         },
         {
           "path": "/download",
-          "title": "導入ガイド",
-          "summary": "まずは機能と使い方をご覧ください。",
+          "title": "ダウンロード",
+          "summary": "NERPの配布状況をご案内します。",
           "sections": [
             {
-              "title": "提供状況",
+              "title": "公開準備中",
               "text": "一般向けダウンロードは準備中です。公開された配布版の案内を、このページに掲載します。",
-              "links": [
-                {
-                  "title": "製品の機能",
-                  "href": "/features"
-                },
-                {
-                  "title": "使い方",
-                  "href": "/docs"
-                }
-              ]
+              "links": []
             }
           ],
           "kind": "page",
-          "label": "導入ガイド",
+          "label": "ダウンロード",
           "category": "",
           "status": "published"
         },
@@ -322,27 +313,32 @@
         },
         {
           "path": "/docs/getting-started",
-          "title": "はじめる前に、道筋をつかむ。",
-          "summary": "機能、使う場面、データの扱いを確認するためのガイドです。",
+          "title": "NERPをはじめるには",
+          "summary": "配布状況とデータの扱いを確認できます。",
           "sections": [
             {
-              "title": "目的を選ぶ",
-              "text": "取り組む内容を機能や用途のページで確認します。",
+              "title": "配布状況を確認する",
+              "text": "まずはダウンロードページで配布状況をご確認ください。",
               "links": [
                 {
-                  "title": "製品を知る",
-                  "href": "/features"
+                  "title": "ダウンロード",
+                  "href": "/download"
                 }
               ]
             },
             {
-              "title": "利用条件を確認する",
-              "text": "導入するソフトウェアの対応環境、ライセンス、提供版を確認してください。",
-              "links": []
+              "title": "データを安全に扱う",
+              "text": "利用前に、データの保護とアクセスに関するガイドをご確認ください。",
+              "links": [
+                {
+                  "title": "セキュリティ",
+                  "href": "/security"
+                }
+              ]
             }
           ],
           "kind": "page",
-          "label": "はじめる前に、道筋をつかむ。",
+          "label": "はじめるガイド",
           "category": "",
           "status": "published"
         },
@@ -700,26 +696,17 @@
         },
         {
           "path": "/download",
-          "title": "Get started",
-          "summary": "Explore the product and its usage guides.",
+          "title": "Downloads",
+          "summary": "Find out about NERP releases.",
           "sections": [
             {
-              "title": "Availability",
+              "title": "Coming soon",
               "text": "Public downloads are being prepared. Released distributions will be listed here.",
-              "links": [
-                {
-                  "title": "Product capabilities",
-                  "href": "/features"
-                },
-                {
-                  "title": "Usage guide",
-                  "href": "/docs"
-                }
-              ]
+              "links": []
             }
           ],
           "kind": "page",
-          "label": "Get started",
+          "label": "Downloads",
           "category": "",
           "status": "published"
         },
@@ -750,27 +737,32 @@
         },
         {
           "path": "/docs/getting-started",
-          "title": "Find a path before getting started.",
-          "summary": "A guide to capabilities, use cases and data boundaries.",
+          "title": "Getting started with NERP",
+          "summary": "Check release availability and how to use your data safely.",
           "sections": [
             {
-              "title": "Choose a goal",
-              "text": "Explore the capability or use-case pages for the work you have in mind.",
+              "title": "Check release availability",
+              "text": "Check the downloads page for release availability.",
               "links": [
                 {
-                  "title": "Explore NERP",
-                  "href": "/features"
+                  "title": "Downloads",
+                  "href": "/download"
                 }
               ]
             },
             {
-              "title": "Review usage conditions",
-              "text": "Check the supported environment, license and available release of the software you select.",
-              "links": []
+              "title": "Handle your data safely",
+              "text": "Review the security guide before using the product.",
+              "links": [
+                {
+                  "title": "Security",
+                  "href": "/security"
+                }
+              ]
             }
           ],
           "kind": "page",
-          "label": "Find a path before getting started.",
+          "label": "Getting started",
           "category": "",
           "status": "published"
         },
