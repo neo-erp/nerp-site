@@ -25,10 +25,6 @@
         {
           "title": "ドキュメント",
           "href": "/docs"
-        },
-        {
-          "title": "読みもの",
-          "href": "/journal"
         }
       ],
       "pages": [
@@ -38,8 +34,8 @@
           "summary": "業務の記録、連絡先、タスク、個人の知識。自分の端末を軸に、情報を整理するワークスペース。",
           "sections": [
             {
-              "title": "目的から、次の一歩へ。",
-              "text": "関心のあるテーマから、機能と使い方をご覧ください。",
+              "title": "仕事と個人、それぞれの情報整理",
+              "text": "業務を見渡すワークスペースと、個人の知識を育てる使い方。必要な場面からNERPの構想を紹介します。",
               "links": [
                 {
                   "title": "業務を見渡す",
@@ -62,8 +58,8 @@
               ]
             },
             {
-              "title": "使い方をイメージする",
-              "text": "用途ごとに、取り組み方と選ぶ道具を整理しています。",
+              "title": "手元の情報を、どう扱うか",
+              "text": "ローカルを出発点とするデータの扱いと、利用を始めるための条件を確認できます。",
               "links": [
                 {
                   "title": "活用シーンを見る",
@@ -232,8 +228,8 @@
         },
         {
           "path": "/use-cases",
-          "title": "使う場面から、考える。",
-          "summary": "目的に合わせて、情報の扱いと道具の選び方を整理します。",
+          "title": "仕事と個人での使い方",
+          "summary": "各場面から、NERPの使い方と関連するガイドへ進めます。",
           "sections": [
             {
               "title": "業務を見渡す",
@@ -270,7 +266,7 @@
             }
           ],
           "kind": "page",
-          "label": "使う場面から、考える。",
+          "label": "仕事と個人での使い方",
           "category": "",
           "status": "published"
         },
@@ -301,7 +297,7 @@
         },
         {
           "path": "/docs",
-          "title": "ガイドとドキュメント",
+          "title": "NERPのガイド",
           "summary": "目的に合わせて、使い方と設計の考え方を確認できます。",
           "sections": [
             {
@@ -320,7 +316,7 @@
             }
           ],
           "kind": "page",
-          "label": "ガイドとドキュメント",
+          "label": "NERPのガイド",
           "category": "",
           "status": "published"
         },
@@ -429,7 +425,11 @@
         }
       ],
       "resources": [],
-      "icon": "/brand/icon.png"
+      "icon": "/brand/icon.png",
+      "secondaryAction": {
+        "title": "導入・ドキュメント",
+        "href": "/docs"
+      }
     },
     "en": {
       "brand": "NERP",
@@ -453,10 +453,6 @@
         {
           "title": "Docs",
           "href": "/docs"
-        },
-        {
-          "title": "Journal",
-          "href": "/journal"
         }
       ],
       "pages": [
@@ -466,8 +462,8 @@
           "summary": "A local-first workspace for business records, contacts, tasks and personal knowledge.",
           "sections": [
             {
-              "title": "Find your next step.",
-              "text": "Explore capabilities and guides by the work you want to do.",
+              "title": "Organize work and personal information",
+              "text": "Explore NERP through workspaces for work and knowledge management for personal use.",
               "links": [
                 {
                   "title": "See your work",
@@ -490,8 +486,8 @@
               ]
             },
             {
-              "title": "Explore the possibilities",
-              "text": "Find a workflow and the tools that fit your use case.",
+              "title": "Understand how local information is handled",
+              "text": "Review local-first data boundaries and the conditions for getting started.",
               "links": [
                 {
                   "title": "Explore use cases",
@@ -660,8 +656,8 @@
         },
         {
           "path": "/use-cases",
-          "title": "Start with the work.",
-          "summary": "Explore approaches to organizing information and selecting tools.",
+          "title": "NERP at work and for personal use",
+          "summary": "Explore NERP through specific scenarios and related guides.",
           "sections": [
             {
               "title": "See your work",
@@ -698,7 +694,7 @@
             }
           ],
           "kind": "page",
-          "label": "Start with the work.",
+          "label": "NERP at work and for personal use",
           "category": "",
           "status": "published"
         },
@@ -729,7 +725,7 @@
         },
         {
           "path": "/docs",
-          "title": "Guides and documentation",
+          "title": "NERP guides",
           "summary": "Explore usage guides and design principles.",
           "sections": [
             {
@@ -748,7 +744,7 @@
             }
           ],
           "kind": "page",
-          "label": "Guides and documentation",
+          "label": "NERP guides",
           "category": "",
           "status": "published"
         },
@@ -857,7 +853,11 @@
         }
       ],
       "resources": [],
-      "icon": "/brand/icon.png"
+      "icon": "/brand/icon.png",
+      "secondaryAction": {
+        "title": "Setup & documentation",
+        "href": "/docs"
+      }
     }
   }
 }
