@@ -1,3 +1,4 @@
+import { validateExperience } from './experience.mts'
 import assert from 'node:assert/strict'
 import { readFileSync } from 'node:fs'
 import { fileURLToPath } from 'node:url'
@@ -10,6 +11,7 @@ export function validateContent(data) {
   const paths = data.locales.en.pages.map(page => page.path).sort()
   for (const locale of locales) {
     const content = data.locales[locale]
+    validateExperience(JSON.parse(readFileSync(new URL('./experience.json', import.meta.url), 'utf8'))[locale], content)
     assert.equal(content.locale, locale)
     assert.match(content.accent, /^#[a-f0-9]{6}$/)
     assert.match(content.icon, /^\/brand\/[a-zA-Z0-9/_.-]+\.(png|svg)$/)
