@@ -8,7 +8,7 @@
       "caption": "",
       "origin": "https://nerp.jp",
       "locale": "ja",
-      "accent": "#6740c7",
+      "accent": "#6740b5",
       "navigation": [
         {
           "title": "製品を知る",
@@ -87,7 +87,7 @@
               "text": "連絡先、タスク、記録を目的ごとにまとめ、仕事のつながりを見やすくします。",
               "links": [
                 {
-                  "title": "詳しく読む",
+                  "title": "業務を見渡す",
                   "href": "/features/workspaces",
                   "icon": "/brand/icons/layers.svg"
                 }
@@ -98,7 +98,7 @@
               "text": "メモや日々の記録を、業務の情報と区別しながら整理する環境を目指します。",
               "links": [
                 {
-                  "title": "詳しく読む",
+                  "title": "個人の知識を育てる",
                   "href": "/features/knowledge",
                   "icon": "/brand/icons/document.svg"
                 }
@@ -109,7 +109,7 @@
               "text": "端末内のデータを中心に扱う設計です。必要な外部連携を選び、接続範囲を明確にします。",
               "links": [
                 {
-                  "title": "詳しく読む",
+                  "title": "ローカルを出発点に",
                   "href": "/features/local-first",
                   "icon": "/brand/icons/device.svg"
                 }
@@ -432,7 +432,7 @@
       "caption": "",
       "origin": "https://nerp.jp",
       "locale": "en",
-      "accent": "#6740c7",
+      "accent": "#6740b5",
       "navigation": [
         {
           "title": "Explore NERP",

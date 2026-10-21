@@ -1,0 +1,100 @@
+{
+  "ja": {
+    "category": "業務と個人のワークスペース",
+    "primary": {
+      "href": "/features",
+      "title": "NERPを知る"
+    },
+    "secondary": {
+      "href": "/use-cases",
+      "title": "利用シーンを見る"
+    },
+    "pathsTitle": "何をお探しですか？",
+    "paths": [
+      {
+        "href": "/features/workspaces",
+        "title": "仕事の情報をまとめる",
+        "summary": "連絡先・タスク・記録のつながり"
+      },
+      {
+        "href": "/features/knowledge",
+        "title": "個人の記録を整理する",
+        "summary": "仕事と分けて知識を育てる"
+      },
+      {
+        "href": "/download",
+        "title": "導入状況を確認する",
+        "summary": "配布状況と利用条件を確認"
+      }
+    ],
+    "preview": {
+      "kind": "workspace",
+      "label": "使い方のイメージ",
+      "title": "仕事も、個人の記録も。",
+      "rows": [
+        {
+          "label": "ワークスペース",
+          "detail": "目的ごとに情報を分ける"
+        },
+        {
+          "label": "仕事の見通し",
+          "detail": "連絡先・タスク・記録を整理"
+        },
+        {
+          "label": "自分の知識",
+          "detail": "日々のメモを育てる"
+        }
+      ],
+      "outcome": "ローカルファーストの製品構想"
+    }
+  },
+  "en": {
+    "category": "A workspace for work and life",
+    "primary": {
+      "href": "/features",
+      "title": "Explore NERP"
+    },
+    "secondary": {
+      "href": "/use-cases",
+      "title": "Explore use cases"
+    },
+    "pathsTitle": "What brings you here?",
+    "paths": [
+      {
+        "href": "/features/workspaces",
+        "title": "Organize work",
+        "summary": "Connect contacts, tasks and records"
+      },
+      {
+        "href": "/features/knowledge",
+        "title": "Organize personal knowledge",
+        "summary": "Build knowledge separately from work"
+      },
+      {
+        "href": "/download",
+        "title": "Check availability",
+        "summary": "Review distribution and usage conditions"
+      }
+    ],
+    "preview": {
+      "kind": "workspace",
+      "label": "Workflow illustration",
+      "title": "Work and personal knowledge.",
+      "rows": [
+        {
+          "label": "Workspace",
+          "detail": "Keep information separated by purpose"
+        },
+        {
+          "label": "Work overview",
+          "detail": "Organize contacts, tasks and records"
+        },
+        {
+          "label": "Personal knowledge",
+          "detail": "Build on your everyday notes"
+        }
+      ],
+      "outcome": "A local-first product concept"
+    }
+  }
+}
