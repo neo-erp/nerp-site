@@ -18,7 +18,8 @@
       "appDirectory": ".",
       "assetDirectory": ".output/nerp/public",
       "buildKind": "organization",
-      "zone": "5fdeeb00e4fe2abe3b00c97b642eaaec"
+      "zone": "5fdeeb00e4fe2abe3b00c97b642eaaec",
+      "documentDirectory": "site"
     }
   ]
 }
