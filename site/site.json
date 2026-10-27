@@ -1,0 +1,101 @@
+{
+  "siteId": "nerp",
+  "origin": "https://nerp.jp",
+  "defaultLocale": "ja",
+  "locales": {
+    "ja": {
+      "brand": "NERP",
+      "caption": "",
+      "origin": "https://nerp.jp",
+      "locale": "ja",
+      "accent": "#6740b5",
+      "navigation": [
+        {
+          "title": "製品を知る",
+          "href": "/features"
+        },
+        {
+          "title": "活用シーン",
+          "href": "/use-cases"
+        },
+        {
+          "title": "導入",
+          "href": "/download"
+        },
+        {
+          "title": "ドキュメント",
+          "href": "/docs"
+        }
+      ],
+      "resources": [],
+      "icon": "/brand/icon.png",
+      "secondaryAction": {
+        "title": "導入・ドキュメント",
+        "href": "/docs"
+      },
+      "pageOrder": [
+        "/",
+        "/features",
+        "/features/workspaces",
+        "/features/knowledge",
+        "/features/local-first",
+        "/use-cases",
+        "/download",
+        "/docs",
+        "/docs/getting-started",
+        "/journal",
+        "/contact",
+        "/privacy",
+        "/security",
+        "/sitemap"
+      ]
+    },
+    "en": {
+      "brand": "NERP",
+      "caption": "",
+      "origin": "https://nerp.jp",
+      "locale": "en",
+      "accent": "#6740b5",
+      "navigation": [
+        {
+          "title": "Explore NERP",
+          "href": "/features"
+        },
+        {
+          "title": "Use cases",
+          "href": "/use-cases"
+        },
+        {
+          "title": "Get started",
+          "href": "/download"
+        },
+        {
+          "title": "Docs",
+          "href": "/docs"
+        }
+      ],
+      "resources": [],
+      "icon": "/brand/icon.png",
+      "secondaryAction": {
+        "title": "Setup & documentation",
+        "href": "/docs"
+      },
+      "pageOrder": [
+        "/",
+        "/features",
+        "/features/workspaces",
+        "/features/knowledge",
+        "/features/local-first",
+        "/use-cases",
+        "/download",
+        "/docs",
+        "/docs/getting-started",
+        "/journal",
+        "/contact",
+        "/privacy",
+        "/security",
+        "/sitemap"
+      ]
+    }
+  }
+}

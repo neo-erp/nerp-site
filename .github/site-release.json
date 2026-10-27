@@ -8,7 +8,7 @@
   "sites": [
     {
       "id": "nerp",
-      "version": "0.1.10",
+      "version": "0.1.11",
       "account": "0655772369a7b3425e3398313a36521b",
       "worker": "nerp-site",
       "domain": "nerp.jp",
@@ -18,7 +18,8 @@
       "appDirectory": ".",
       "assetDirectory": ".output/nerp/public",
       "buildKind": "organization",
-      "zone": "5fdeeb00e4fe2abe3b00c97b642eaaec"
+      "zone": "5fdeeb00e4fe2abe3b00c97b642eaaec",
+      "documentDirectory": "site"
     }
   ]
 }
