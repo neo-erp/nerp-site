@@ -21,5 +21,10 @@
       "zone": "5fdeeb00e4fe2abe3b00c97b642eaaec",
       "documentDirectory": "site"
     }
+  ],
+  "requiredChecks": [
+    "repository-policy",
+    "site (nerp)",
+    "site (cost-estimator)"
   ]
 }
